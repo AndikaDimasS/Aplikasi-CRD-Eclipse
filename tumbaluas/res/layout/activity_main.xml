@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/inkode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Kode Buku" />
+
+    <EditText
+        android:id="@+id/injudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Judul Buku" />
+
+    <EditText
+        android:id="@+id/inpeng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Pengarang"
+        />
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Form Delete Data Buku" />
+
+    <EditText
+        android:id="@+id/indel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Kode Buku"
+        android:ems="10" >
+        
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+    
+    <TableLayout
+        android:id="@+id/tabel_data"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="24px" >
+     
+     <TableRow android:id="@+id/tableRow1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+	
+     <TextView
+         android:id="@+id/kode"
+         android:layout_width="40dip"
+         android:layout_height="wrap_content"
+         android:text="Kode" >
+	</TextView>
+
+     <TextView
+         android:id="@+id/nama_id"
+         android:layout_width="80dip"
+         android:layout_height="wrap_content"
+         android:text="Judul" >
+	</TextView>
+     
+     <TextView
+         android:id="@+id/alamat_id"
+         android:layout_width="80dip"
+         android:layout_height="wrap_content"
+         android:text="Pengarang" >
+	</TextView>
+ 
+ </TableRow>
+ </TableLayout>
+
+</LinearLayout>
